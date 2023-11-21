@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(140deg, #1d2026, #023359);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+}
+nav{
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border-radius: 50px;
+    width: 70%;
+    box-shadow: 0px 0px 20px #353563;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    opacity: 1;
+    animation: fade 1.5s linear;
+}
+table{
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border-radius: 13px; 
+    border-spacing: 0;
+    box-shadow: 0px 0px 20px #353563;
+    font-size:x-large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+.card{
+    margin-left: auto;
+    margin-right: auto;
+}
+.accordion{
+    margin-bottom: 20px;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:14% 0%}
+    50%{background-position:87% 100%}
+    100%{background-position:14% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:14% 0%}
+    50%{background-position:87% 100%}
+    100%{background-position:14% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:14% 0%}
+    50%{background-position:87% 100%}
+    100%{background-position:14% 0%}
+}
+
+
+@keyframes fade {
+    0% { opacity: 0 }
+    100% { opacity: 1 }
+  }
+
+  
