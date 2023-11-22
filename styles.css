@@ -1,9 +1,9 @@
 body {
     background: linear-gradient(140deg, #1d2026, #023359);
     background-size: 100%;
-    -webkit-animation: AnimationName 15s ease infinite;
-    -moz-animation: AnimationName 15s ease infinite;
-    animation: AnimationName 15s ease infinite;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
 }
 nav{
     -webkit-backdrop-filter: blur(8px);
