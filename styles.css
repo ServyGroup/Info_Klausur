@@ -58,7 +58,7 @@ th, td {
     animation: fade 1.5s linear;
 }
 .placeholder{
-    margin: 20px;
+    height: 20px;
 }
 
 @-webkit-keyframes AnimationName {
@@ -83,4 +83,3 @@ th, td {
     100% { opacity: 1 }
   }
 
-  
