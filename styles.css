@@ -48,7 +48,15 @@ th, td {
 .accordion {
     background-color: transparent;
 }
-  
+.accordion-body {
+    background-color: transparent;
+}
+.accordion-item {
+    background-color: transparent;
+}  
+.accordion-button {
+    background-color: transparent;
+}  
 .text-light{
     opacity: 1;
     animation: fade 1.5s linear;
