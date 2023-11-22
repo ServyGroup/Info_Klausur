@@ -43,11 +43,14 @@ th, td {
     animation: fade 1.5s linear;
 }
 .accordion{
-    box-shadow: 0px 0px 20px #353563;
     margin-bottom: 20px;
     opacity: 1;
     animation: fade 1.5s linear;
 }
+.accordion-item {
+    box-shadow: 0px 0px 20px #353563; 
+}
+
 @-webkit-keyframes AnimationName {
     0%{background-position:14% 0%}
     50%{background-position:87% 100%}
