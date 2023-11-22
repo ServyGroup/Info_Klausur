@@ -47,10 +47,6 @@ th, td {
     opacity: 1;
     animation: fade 1.5s linear;
 }
-.accordion-body {
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
-  }
   
 .accordion-button{
     -webkit-backdrop-filter: blur(8px);
