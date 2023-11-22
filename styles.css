@@ -46,9 +46,6 @@ th, td {
     margin-bottom: 20px;
     opacity: 1;
     animation: fade 1.5s linear;
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
-    box-shadow: 0px 0px 20px #353563;
 }
 .accordion-button{
     -webkit-backdrop-filter: blur(8px);
@@ -61,6 +58,10 @@ th, td {
     backdrop-filter: blur(8px);
     box-shadow: 0px 0px 20px #353563;
 
+}
+h4{
+    opacity: 1;
+    animation: fade 1.5s linear;
 }
 
 @-webkit-keyframes AnimationName {
