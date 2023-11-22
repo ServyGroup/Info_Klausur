@@ -59,7 +59,7 @@ th, td {
     box-shadow: 0px 0px 20px #353563;
 
 }
-h4{
+.scrollspyHeading2{
     opacity: 1;
     animation: fade 1.5s linear;
 }
