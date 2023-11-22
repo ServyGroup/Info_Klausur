@@ -43,6 +43,7 @@ th, td {
     animation: fade 1.5s linear;
 }
 .accordion{
+    box-shadow: 0px 0px 20px #353563;
     margin-bottom: 20px;
     opacity: 1;
     animation: fade 1.5s linear;
