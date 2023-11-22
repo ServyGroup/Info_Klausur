@@ -23,6 +23,36 @@
           </li>
         </ul>
       </nav>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="6.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
       <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
         <h4 id="scrollspyHeading1" class="text-light px-3">Notenspiegel</h4>
         <table class="text-light">
@@ -92,9 +122,9 @@
             </tbody>
           </table>
           <div class="accordion accordion-flush p-5" id="accordionExample">
-            <div class="accordion-item accordion-flush">
+            <div class="accordion-item bg-dark text-light accordion-flush">
               <h2 class="accordion-header">
-                <button class="accordion-button accordion-flush" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <button class="accordion-button accordion-flush bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   Erklärung Spalte 1
                 </button>
               </h2>
@@ -109,9 +139,9 @@
                 </div>
               </div>
             </div>
-            <div class="accordion-item accordion-flush">
+            <div class="accordion-item accordion-flush bg-dark text-light">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed accordion-flush" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <button class="accordion-button collapsed accordion-flush bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     Erklärung Spalte 2
                 </button>
               </h2>
@@ -138,15 +168,72 @@
                 &lttd&gt&ltb&gtINHALT ZELLE 2 &lt/b&gt&lt/td&gt <br>
                 &lt/tr&gt <br>
                 &lttr&gt <br>
-                &lttd&gt&ltu&gtINHALT ZELLE 1 &lt/u&gt&lt/td&gt <br>
-                &lttd&gtINHALT ZELLE 2 &lt/td&gt <br>
+                &lttd&gt&ltu&gtINHALT ZELLE 3 &lt/u&gt&lt/td&gt <br>
+                &lttd&gtINHALT ZELLE 4 &lt/td&gt <br>
                 &lt/tr&gt <br>
                 &lt/table&gt
               </code></p>
             </div>
           </div>
       </div>
-      <div id="placeholder"></div>
+      <table class="text-light">
+        <tr>
+          <td><i>INHALT ZELLE 1</i></td>
+          <td><b>INHALT ZELLE 2</b></td>
+        </tr>
+        <tr>
+          <td><u>INHALT ZELLE 3</u></td>
+          <td>INHALT ZELLE 4</td>
+        </tr>
+      </table>
+      <div class="accordion accordion-flush p-5" id="accordionExample">
+        <div class="accordion-item bg-dark text-light accordion-flush">
+          <h2 class="accordion-header">
+            <button class="accordion-button accordion-flush bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              &lttable&gt
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show " data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Dieses Tag kennzeichnet den Beginn einer HTML-Tabelle.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item accordion-flush bg-dark text-light">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed accordion-flush bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              &lttr&gt
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Dieses Tag steht für eine Tabellenzeile (table row) und kennzeichnet den Beginn einer neuen Zeile in der Tabelle. 
+            </div>
+          </div>
+          <div class="accordion-item accordion-flush bg-dark text-light">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed accordion-flush bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+                &lttd&gt
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Dieses Tag steht für eine Tabellenzelle (table data) und kennzeichnet den Beginn einer Zelle in der Tabelle.
+              </div>
+            </div>
+            <div class="accordion-item accordion-flush bg-dark text-light">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed accordion-flush bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+              &lti&gt, &ltb&gt, &ltu&gt
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Dieses Tag steht für eine Tabellenzeile (table row) und kennzeichnet den Beginn einer neuen Zeile in der Tabelle. 
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
   

@@ -42,28 +42,34 @@ th, td {
     opacity: 1;
     animation: fade 1.5s linear;
 }
-.accordion-flush {
-    background-color: transparent; 
-}
-.accordion {
-    background-color: transparent;
-}
-.accordion-body {
-    background-color: transparent;
-}
-.accordion-item {
-    background-color: transparent;
-}  
-.accordion-button {
-    background-color: transparent;
-}  
 .text-light{
     opacity: 1;
     animation: fade 1.5s linear;
 }
-.placeholder{
-    height: 20px;
+.bg-dark{
+    background: linear-gradient(140deg, #1d2026, #023359);
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+    box-shadow: 0px 0px 20px #353563;
 }
+.accordion{
+    opacity: 1;
+    animation: fade 1.5s linear;
+}
+img{
+    max-width: 30%;
+    border-radius: 13px;
+    box-shadow: 0px 0px 20px #353563;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 
 @-webkit-keyframes AnimationName {
     0%{background-position:14% 0%}
